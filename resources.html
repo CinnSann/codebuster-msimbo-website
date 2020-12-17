@@ -4,46 +4,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dist/tailwind.css">
     <title>Student Resources</title>
 </head>
 
-<body>
-    <div id="sources">
-
-        <div id="nav">
-            <a href="#"><button class="item">Home</button></a>
-            <a href="https://docs.google.com/spreadsheets/d/1B34dAaxyfY_Z6an_bQ0nB8HnSewuqByvBxcy5f7-b0A/edit#gid=913353782"><button class="item">Curriculum</button></a>
-            <a href="https://msimbo.herokuapp.com/assignments"><button class="item">Assignments</button></a>
-            <a href="https://msimbo.herokuapp.com/videos"><button class="item">Videos</button></a>
-            <a href="https://msimbo.herokuapp.com/resources"><button class="item">Additional Resources</button></a>
+<body class="h-3/4 bg-gray-200">
+        <!-- outermost bg -->
+    
+        <!-- header below -->
+    
+        <div class="bg-gray-100 h-42 border-b-4 border-gray-300 p-8">
+    
+            <!-- header items below -->
+            <div class="flex md:flex justify-between">
+                <!--biggest div-->
+    
+                <a href="https://www.ulem.org">
+                    <div class="w-4/5 mx-auto">
+                        <img src="images/ulem-logo.png" width="271.5">
+                    </div>
+                </a>
+                
+                <div class="flex justify-between divide-x-2 divide-red-600">
+                    <div class="p-1 my-4 max-w-sm mx-auto flex text items-center space-x-4 hover:underline ">
+                        <a href="#">
+                            <div class="flex px-8 text-lg text-gray-400 font-semibold hover:underline hover:text-red-700">
+                                Home</div>
+                        </a>
+                    </div>
+    
+                    <div class="p-1 my-4 max-w-sm mx-auto flex items-center space-x-4">
+                        <a href="https://docs.google.com/spreadsheets/d/1B34dAaxyfY_Z6an_bQ0nB8HnSewuqByvBxcy5f7-b0A/edit#gid=913353782">
+                            <div
+                                class="flex px-8 text-lg text-gray-400 font-semibold hover:underline hover:text-red-700 text-center">
+                                Curriculum</div>
+                        </a>
+                    </div>
+    
+    
+    
+                    <div class="p-1 my-4 max-w-sm mx-auto flex items-center space-x-4">
+                        <a href="https://msimbo.herokuapp.com/assignments">
+                            <div class="flex px-8 text-lg text-gray-400 font-semibold hover:underline hover:text-red-700">
+                                Assignments</div>
+                        </a>
+                    </div>
+    
+                    <div class="p-1 my-4 max-w-sm mx-auto flex items-center space-x-4">
+                        <a href="https://msimbo.herokuapp.com/resources">
+                            <div
+                                class="flex px-8 text-lg text-gray-400 font-semibold hover:underline hover:text-red-700 mr-4 text-center">
+                                Additional Resources</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </body>
 
 
-        <div id="blurb">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="">
+
+
+        
+        <hr>
+
+        
+
+        <div>
             <h2>Our Students</h2>
             <p>Looking for new web developers for your team? Check out our Alum!</p>
         </div>
 
-        <div id="portal">
-            <ul class="list-in">
-                <li class="list-item"><button class="btn">Fall 2019</button></li>
-                <li class="list-item"><button class="btn">Spring 2019</button></li>
-                <li class="list-item"><button class="btn">Fall 2018</button></li>
-                <li class="list-item"><button class="btn">Spring 2018</button></li>
-            </ul>
+        <div>
+            <span>Alumni Portal &#9662;</span>
+                <ul class="list-in">
+                    <li class="list-item"><button class="btn">Fall 2019</button></li>
+                    <li class="list-item"><button class="btn">Spring 2019</button></li>
+                    <li class="list-item"><button class="btn">Fall 2018</button></li>
+                    <li class="list-item"><button class="btn">Spring 2018</button></li>
+                 </ul>
+        
         </div>
 
-        <hr>
-
-
-        <div id="testimonials">
+        <div>
 
             <h2>Alumni Testimonials</h2>
-
-            <img src="images/testimonial1.jpg" alt="testimonial 1" width="350">
-            <img src="images/testimonial2.jpg" alt="testimonial 2" width="350">
-            <img src="images/testimonial3.jpg" alt="testimonial 3" width="350">
+            <div class="rounded"><img src="images/testimonial1.jpg" alt="testimonial 1" width="350">
+            </div>
+            <div><img src="images/testimonial2.jpg" alt="testimonial 2" width="350"></div>
+            <div><img src="images/testimonial3.jpg" alt="testimonial 3" width="350"></div>
+            
+            
 
         </div>
 
