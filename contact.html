@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 
-<body class="h-3/4 bg-gray-200">
+<body class="box-border h-3/4 bg-gray-200 flex-col text-center">
     <!-- outermost bg -->
 
     <!-- header below -->
@@ -59,10 +59,43 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <header class="box-border p-12 mx-28 border-4 rounded border-red-600 bg-white">
+        <h1 class="text-3xl font-semibold">Contact Us</h1>
+        <p><em>Want to hear more about MSIMBO? Have any questions? Fill out below.</em></p>
+    </header>
+
+    <form action="https://formspree.io/f/xknpqlzy" method="POST">
+        <label for='full-name'>Name</label>
+        <input type="text" id="name" name="Name"><br><br>
+        <label for='email'>Email</label>
+        <input type="email" name="_replyto"><br><br>
+        <label for='Subject'>Subject</label>
+        <input name="email" id="email" type="email"><br><br>
+        <label for='Message'>Message</label>
+        <input name="email" id="email" type="email"><br><br>
+        <input type="submit" value="Send">
+
+
+        <!-- <div class="mb-40">
+            <label for='full-name'>Name</label>
+            <input id='full-name' name='full-name' type='text'/>
+        </div> -->
+
+
+    </form>
+
+
+
+
+
 </body>
 
 
-<form></form>
+
 
 
 <script><a href="app.js"></script>
