@@ -1,2 +1,2 @@
-# studious-jazz
-MSIMBO Redesign V1
+# scholarly-blues
+MSIMBO Redesign V3
