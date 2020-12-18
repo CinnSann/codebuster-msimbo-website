@@ -8,7 +8,7 @@
     <title>Student Resources</title>
 </head>
 
-<body class="h-3/4 bg-gray-200">
+<body class="bg-gradient-to-tr from-black via-red-600 to-white">
     <!-- outermost bg -->
 
     <!-- header below -->
@@ -69,51 +69,87 @@
 
     <div class="">
 
-        <!-- team bios -->
-        <div class="border-4 border-black">
-            <h2>Meet our Management Team</h2>
-
-        </div>
-
-
         <!-- alum portal -->
 
-        <div class="border-2 border-white">
-            <h2>Our Students</h2>
-            <p>Looking for new web developers for your team? Check out our Alum!</p>
+        <div class="flex my-8 justify-end">
+            <div class="border-2 border-white">
+                <h2 class="font-extrabold">Meet Our Students</h2>
+                <p>Looking for new web developers for your team? Check out our Alum!</p>
+            </div>
+    
+    
+            <div class="border-4 border-yellow-500">
+                <span class="font-extrabold">Alumni Portal &#9662;</span>
+                <ul class="list-in">
+                    <li class="list-item"><button class="btn">Fall 2020</button></li>
+                    <li class="list-item"><button class="btn">Fall 2019</button></li>
+                    <li class="list-item"><button class="btn">Spring 2019</button></li>
+                    <li class="list-item"><button class="btn">Fall 2018</button></li>
+                    <li class="list-item"><button class="btn">Spring 2018</button></li>
+                </ul>
+    
+            </div>
         </div>
 
 
-        <div class="border-4 border-yellow-500">
-            <span>Alumni Portal &#9662;</span>
-            <ul class="list-in">
-                <li class="list-item"><button class="btn">Fall 2020</button></li>
-                <li class="list-item"><button class="btn">Fall 2019</button></li>
-                <li class="list-item"><button class="btn">Spring 2019</button></li>
-                <li class="list-item"><button class="btn">Fall 2018</button></li>
-                <li class="list-item"><button class="btn">Spring 2018</button></li>
-            </ul>
+        <!-- team bios -->
+        <div class="border-4 border-black my-8">
+            <h2 class="font-extrabold mb-12">Meet our Management Team</h2>
+            <div class="grid grid-cols-2">
+                <div>
+                    <div class="font-bold">Workforce Development Instructor</div>
+                    <div class="mb-8">Dele Omotosho</div>
+                </div>
+                <div>
+                    <div class="font-bold">Director of Workforce Development</div>
+                    <div class="mb-8">William Watkins</div>
+                </div>
+                <div>
+                    <div class="font-bold">Workforce Development Coordinator/Data Specialist</div>
+                    <div class="mb-8">Betzaida Guzman</div>
+                </div>
+                <div>
+                    <div class="font-bold">IT Manager</div>
+                    <div class="mb-8">Othneil Uter</div>
+                </div>
+        
+            </div>
+            <div class="flex justify-end">
+	
+                <div class="p-2 m-4 max-w-sm bg-red-600 text-white rounded-xl shadow-md">
+                    <a href="contact.html">
+                        <div class="">Contact Us</div>
+                    </a>
+                </div>
+
+            </div>
+
+        
 
         </div>
+
 
     </div>
 
 
-    <div class="border-black border-2">
+    <div class="border-black border-2 my-8">
         <div class="flex flex-grow">
 
-            <h2>Alumni Testimonials</h2>
+            <h2 class="font-extrabold">Alumni Testimonials</h2>
 
-            <div>
-                <img class="rounded-xl" src="images/testimonial3.jpg" alt="testimonial 3" width="350">
-            </div>
+            <div class="flex justify-evenly space-x-8">
+                <div>
+                    <img class="rounded-xl" src="images/testimonial3.jpg" alt="testimonial 3" width="375">
+                </div>
+    
+                <div>
+                    <img class="rounded-xl" src="images/testimonial2.jpg" alt="testimonial 2" width="355">
+                </div>
+    
+                <div>
+                    <img class="rounded-xl" src="images/testimonial1.jpg" alt="testimonial 1" width="320">
+                </div>
 
-            <div>
-                <img class="rounded-xl" src="images/testimonial2.jpg" alt="testimonial 2" width="350">
-            </div>
-
-            <div>
-                <img class="rounded-xl" src="images/testimonial1.jpg" alt="testimonial 1" width="350">
             </div>
 
 
@@ -127,7 +163,7 @@
 
     <div class="flex flex-col-3 justify-between bg-red-800 h-40 border-b-4 border-gray-300 p-8">
         <!--biggest div-->
-        <div class="font-bold text-white">Contact:
+        <div class="font-bold text-white">
             <ul>
                 <li><img src="">88 Warren Street, Roxbury, MA 02119</li>
                 <li><img src="">info@ulem.org</li>

@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 
-<body class="box-border h-3/4 bg-gray-200 flex-col text-center">
+<body class="box-border h-3/4 bg-gradient-to-tr from-black via-red-600 to-whiteflex-col text-center">
     <!-- outermost bg -->
 
     <!-- header below -->
@@ -66,27 +66,39 @@
     <header class="box-border p-14 mx-48 my-14 border-2 rounded border-red-600 bg-white">
         <h1 class="text-3xl font-semibold">Contact Us</h1>
         <p><em>Want to hear more about MSIMBO? Have any questions? Fill out below.</em></p>
+
+
+        <form class="m-2" action="https://formspree.io/f/xknpqlzy" method="POST">
+            <label for='full-name'>Name</label>
+            <input type="text" id="name" name="Name" class="placeholder-gray-500 placeholder-opacity-75" placeholder="Enter your Full Name"><br><br>
+
+            
+            <label for='email'>Email</label>
+            <input type="email" name="_replyto" class="placeholder-gray-500 placeholder-opacity-75" placeholder="name@example.com"><br><br>
+
+
+            <label for='Subject'>Subject</label>
+            <input name="subject" id="subject" type="text" class="placeholder-gray-500 placeholder-opacity-75" placeholder="Information sessions?"><br><br>
+            
+            
+            <label for='Message'>Message</label>
+            <input name="Message" id="Message" type="text"><br><br>
+            
+            <input type="submit" value="Send">
+    
+    
+            <!-- <div class="mb-40">
+                <label for='full-name'>Name</label>
+                <input id='full-name' name='full-name' type='text'/>
+            </div> -->
+    
+    
+        </form>
+
+
     </header>
 
-    <form class="m-28" action="https://formspree.io/f/xknpqlzy" method="POST">
-        <label for='full-name'>Name</label>
-        <input type="text" id="name" name="Name" class="placeholder-gray-500 placeholder-opacity-75" placeholder="Enter your Full Name"><br><br>
-        <label for='email'>Email</label>
-        <input type="email" name="_replyto" class="placeholder-gray-500 placeholder-opacity-75" placeholder="name@example.com"><br><br>
-        <label for='Subject'>Subject</label>
-        <input name="email" id="email" type="email" class="placeholder-gray-500 placeholder-opacity-75" placeholder="Information sessions?"><br><br>
-        <label for='Message'>Message</label>
-        <input name="email" id="email" type="email"><br><br>
-        <input type="submit" value="Send">
-
-
-        <!-- <div class="mb-40">
-            <label for='full-name'>Name</label>
-            <input id='full-name' name='full-name' type='text'/>
-        </div> -->
-
-
-    </form>
+    
 
 
     <!-- footer section -->
@@ -94,7 +106,7 @@
 
     <div class="flex flex-col-3 justify-between bg-red-800 h-40 border-b-4 border-gray-300 p-8">
         <!--biggest div-->
-        <div class="font-bold text-white">Contact:
+        <div class="font-bold text-white">
             <ul>
                 <li><img src="">88 Warren Street, Roxbury, MA 02119</li>
                 <li><img src="">info@ulem.org</li>
