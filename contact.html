@@ -64,33 +64,35 @@
 
 
     <header class="box-border p-14 mx-48 my-14 border-2 rounded border-red-600 bg-white">
-        <h1 class="text-3xl font-semibold">Contact Us</h1>
-        <p><em>Want to hear more about MSIMBO? Have any questions? Fill out below.</em></p>
+        <h1 class="text-3xl font-bold m-8">Contact Us</h1>
+        <p class="text-xl font-light">Want to hear more or have any questions?</p>
+        <p class="mb-6 text-xl font-light">Fill out below.</p>
 
 
         <form class="m-2" action="https://formspree.io/f/xknpqlzy" method="POST">
-            <label for='full-name'>Name</label>
-            <input type="text" id="name" name="Name" class="placeholder-gray-500 placeholder-opacity-75" placeholder="Enter your Full Name"><br><br>
+            <div><label for='full-name'>Name</label></div>
+            <input type="text" id="name" name="Name" class="border-2 rounded-lg placeholder-gray-500 placeholder-opacity-75 w-3/6" placeholder="Enter your full name "><br><br>
 
             
-            <label for='email'>Email</label>
-            <input type="email" name="_replyto" class="placeholder-gray-500 placeholder-opacity-75" placeholder="name@example.com"><br><br>
+            <div><label for='email'>Email</label></div>
+            <input type="email" name="_replyto" class="border-2 rounded-lg placeholder-gray-500 placeholder-opacity-75 w-3/6" placeholder=" name@example.com "><br><br>
 
 
-            <label for='Subject'>Subject</label>
-            <input name="subject" id="subject" type="text" class="placeholder-gray-500 placeholder-opacity-75" placeholder="Information sessions?"><br><br>
+            <div><label for='Subject'>Subject</label></div>
+            <input name="subject" id="subject" type="text" class="border-2 rounded-lg placeholder-gray-500 placeholder-opacity-75 w-3/6" placeholder=" Information sessions? "><br><br>
             
             
-            <label for='Message'>Message</label>
-            <input name="Message" id="Message" type="text"><br><br>
             
-            <input type="submit" value="Send">
+            
+            <div>
+                <label for='Message'>Message</label>
+            </div>
+            <textarea name="Message" id="Message" type="text" class="border-2 rounded-lg w-3/6"></textarea><br><br>
+            
+            <input type="submit" value="Send" class="px-10 py-1 max-w-sm bg-red-600 text-white rounded-xl shadow-md">
     
     
-            <!-- <div class="mb-40">
-                <label for='full-name'>Name</label>
-                <input id='full-name' name='full-name' type='text'/>
-            </div> -->
+         
     
     
         </form>
